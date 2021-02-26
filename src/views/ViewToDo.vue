@@ -1,18 +1,17 @@
 <template>
- <div :class="$style.container">
-   <slot />
- </div>
+  <div :class="$style.container">
+    <h1>This is ToDo Page</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'MainLayout',
+  name: 'ViewToDo',
 };
 </script>
 
 <style lang="scss" module>
 .container {
   display: flex;
-  flex-direction: row;
 }
 </style>

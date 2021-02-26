@@ -1,15 +1,15 @@
 <template>
-  <MainLayout>
+  <LayoutMain>
     <RouterView />
-  </MainLayout>
+  </LayoutMain>
 </template>
 
 <script>
-import MainLayout from '@/layouts/MainLayout.vue';
+import LayoutMain from '@/layouts/LayoutMain.vue';
 
 export default {
   name: 'App',
-  components: { MainLayout },
+  components: { LayoutMain },
   props: {
     hello: Boolean,
   },

@@ -11,7 +11,9 @@
     "@vue/eslint-config-airbnb": "^5.3.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
-    "vue-router": "^4.0.2"
+    "vue-qrcode-reader": "^2.3.16",
+    "vue-router": "^4.0.2",
+    "vue3-qr-reader": "0.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
